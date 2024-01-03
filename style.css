@@ -1,0 +1,36 @@
+* {
+  background-color: beige;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+  /* background-color: bisque; */
+}
+
+.listaMakeUps{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listaMakeUps li {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 350px;
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px;
+}
+.listaMakeUps li img {
+  width: 120px;
+  height: 100px;
+}
+
+.listaMakeUps li strong   {
+  background-color: white;
+}
